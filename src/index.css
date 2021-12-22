@@ -12,3 +12,14 @@ code {
   --ddroidd-blue: #003C55;
   --ddroidd-yellow: gold;
 }
+
+@keyframes fade-in {
+  from
+  {
+    opacity: 0;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}

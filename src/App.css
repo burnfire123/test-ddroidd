@@ -4,5 +4,7 @@
     background-color: #eee;
     margin-left: 100px;
     margin-right: 100px;
-    height: 82.5vh;
+    height: fit-content;
+    justify-content: center;
+    padding-bottom: 50px;
 }

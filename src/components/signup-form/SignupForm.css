@@ -1,0 +1,84 @@
+#signupForm
+{
+    animation: fade-in 0.5s linear;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+#signupForm h1, #signupForm h2
+{
+    color: var(--ddroidd-blue);
+    font-family: "Open Sans", serif;
+}
+
+#joinform h2
+{
+    margin-top: 10%;
+}
+
+.formInput
+{
+    display: grid;
+}
+
+.formInput label
+{
+    color: var(--ddroidd-blue);
+    font-family: "Open Sans", serif;
+}
+
+.formInput.required label:after
+{
+    content: " *";
+    color: red;
+}
+
+.formInput input, .formInput select
+{
+    box-shadow: 0 5px 5px black;
+    padding: 10px;
+    background-color: white;
+}
+
+#joinform
+{
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 5%;
+}
+
+#joinform #namesPart, #joinform #contactPart
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    column-gap: 5%;
+}
+
+#joinform #addressPart
+{
+    display: grid;
+    row-gap: 5%;
+    grid-template-rows: repeat(3, max-content);
+}
+
+label
+{
+    font-weight: bolder;
+}
+
+#cityPart
+{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 5%;
+}
+
+#submitJoin
+{
+    margin-top: 2%;
+    align-self: flex-end;
+    width: 25%;
+}

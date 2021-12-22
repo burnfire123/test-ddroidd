@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    animation: fade-in 0.5s linear;
 }
 
 #presentationPage #top
