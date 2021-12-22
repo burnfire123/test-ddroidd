@@ -1,4 +1,21 @@
 #presentationPage
 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+#presentationPage #top
+{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+}
+
+#presentationPage .JoinUsButton
+{
+    position: absolute;
+    bottom: 20px;
+    width: 250px;
 }

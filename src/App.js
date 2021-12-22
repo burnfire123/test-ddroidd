@@ -12,6 +12,7 @@ import {PresentationPage} from "./components/presentation-page/PresentationPage"
 function App() {
   return (
     <BrowserRouter>
+
         <div>
             <NavBar/>
             <main id={"appBackground"}>
