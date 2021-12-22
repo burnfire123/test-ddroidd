@@ -6,3 +6,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root
+{
+  --ddroidd-blue: #003C55;
+  --ddroidd-yellow: gold;
+}

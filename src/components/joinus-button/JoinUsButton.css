@@ -1,0 +1,10 @@
+.JoinUsButton
+{
+    color: var(--ddroidd-blue);
+    background-color: var(--ddroidd-yellow);
+    font-size: 18px;
+    --left-right-padding: 20px;
+    padding-left: var(--left-right-padding);
+    padding-right: var(--left-right-padding);
+    box-shadow: 0 3px black;
+}

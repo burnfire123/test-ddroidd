@@ -1,0 +1,15 @@
+#navbar
+{
+    background-color: var(--ddroidd-blue);
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    justify-content: space-around;
+}
+
+#navbar h1
+{
+    font-size: 32px;
+    font-family: "Open Sans", serif;
+}
