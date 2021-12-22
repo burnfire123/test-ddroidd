@@ -14,11 +14,11 @@ function App() {
     <BrowserRouter>
         <div>
             <NavBar/>
-            <div id={"appBackground"}>
+            <main id={"appBackground"}>
                 <Switch>
                     <Route exact path={"/"}><PresentationPage/></Route>
                 </Switch>
-            </div>
+            </main>
         </div>
     </BrowserRouter>
   );
