@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     animation: fade-in 0.5s linear;
+    height: 70vh;
+    position: relative;
 }
 
 #presentationPage #top
@@ -17,6 +19,6 @@
 #presentationPage .JoinUsButton
 {
     position: absolute;
-    bottom: 20px;
+    bottom: 0;
     width: 250px;
 }

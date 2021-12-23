@@ -14,7 +14,6 @@ import {FinishPage} from "./components/finish-page/FinishPage";
 function App() {
   return (
     <BrowserRouter>
-
         <div>
             <NavBar/>
             <main id={"appBackground"}>
@@ -25,6 +24,7 @@ function App() {
                     <Route path={"*"}><h1 style={{color: "red"}}>404! This page isn't found!</h1> </Route>
                 </Switch>
             </main>
+            <footer>Come to the dark side... We have 🍺</footer>
         </div>
     </BrowserRouter>
   );
