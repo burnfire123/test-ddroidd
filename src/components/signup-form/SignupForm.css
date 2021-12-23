@@ -35,6 +35,11 @@
     color: red;
 }
 
+.invalid
+{
+    border: 3px solid red;
+}
+
 .formInput input, .formInput select
 {
     box-shadow: 0 5px 5px black;
